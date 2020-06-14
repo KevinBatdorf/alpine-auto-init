@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "A lightweight auto init helper for Alpine.js",
   "main": "dist/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "jest",
     "test-watch": "jest --watch",
@@ -31,5 +34,10 @@
     "laravel-mix": "^5.0.4",
     "vue-template-compiler": "^2.6.11",
     "webpack-livereload-plugin": "^1.2.0"
-  }
+  },
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "dependencies": {}
 }

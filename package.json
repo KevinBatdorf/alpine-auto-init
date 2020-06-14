@@ -1,7 +1,7 @@
 {
-  "name": "alpine-auto-init",
+  "name": "@kevinbatdorf/alpine-auto-init",
   "version": "0.1.0",
-  "description": "A lightweight auto init function for Alpine.js",
+  "description": "A lightweight auto init helper for Alpine.js",
   "main": "dist/index.js",
   "scripts": {
     "test": "jest",

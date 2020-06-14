@@ -26,7 +26,7 @@ function customBullets() {
 
 ## Installation
 
-Include the following `<script>` tag in the `<head>` of your document:
+Include the following `<script>` tag in the `<head>` of your document (before Alpine):
 
 ```html
 <script src="https://cdn.jsdelivr.net/gh/KevinBatdorf/alpine-auto-init@0.x.x/dist/index.js"></script>

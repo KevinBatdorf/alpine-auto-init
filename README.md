@@ -1,5 +1,5 @@
 # alpine-auto-init
-A lightweight auto init function for Alpine.js
+A lightweight helper to auto call an init() method for Alpine.js
 
 ## About
 

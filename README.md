@@ -1,5 +1,7 @@
 # alpine-auto-init
 A lightweight helper to auto call an init() method for Alpine.js
+![GitHub file size in bytes](https://img.shields.io/github/size/kevinbatdorf/alpine-auto-init/dist/index.js?label=minified&style=flat-square)
+![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/kevinbatdorf/alpine-auto-init?label=version&style=flat-square)
 
 ## About
 

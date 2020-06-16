@@ -1,6 +1,6 @@
 {
   "name": "@kevinbatdorf/alpine-auto-init",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A lightweight auto init helper for Alpine.js",
   "main": "dist/index.js",
   "publishConfig": {

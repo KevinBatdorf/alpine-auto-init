@@ -1,5 +1,5 @@
 function AlpineAutoInit() {
-	document.querySelectorAll('[x-data]').forEach(alpineElement => {
+	Array.from(document.querySelectorAll('[x-data]')).forEach(alpineElement => {
 		alpineElement.setAttribute('x-init',
 			[
 				alpineElement.getAttribute('x-init'),

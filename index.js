@@ -9,11 +9,10 @@ function AlpineAutoInit() {
 	})
 }
 
-const buffered = window.deferLoadingAlpine || false
-window.deferLoadingAlpine = function(alpine) {
+const alpine = window.deferLoadingAlpine || ((alpine) => alpine())
+window.deferLoadingAlpine = function(callback) {
 	AlpineAutoInit()
-	typeof buffered == "function" && buffered()
-	alpine()
+	alpine(callback)
 }
 
 module.exports = AlpineAutoInit
